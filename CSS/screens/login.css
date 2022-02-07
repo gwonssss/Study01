@@ -1,0 +1,72 @@
+.Welcome-header { 
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Welcome-header__text{
+  width: 60%;
+  opacity: 0.6;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  border: none;
+  padding: 13px 0px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#login-form input:not([type="submit"]){
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  transition: border-color 0.2s ease-in-out;
+
+}
+#login-form input::placeholder{
+  color: rgba(0,0,0,0.5);
+}
+
+#login-form input:focus{
+  border-color: rgba(0,0,0,1);
+}
+
+#login-form input[type="submit"]{
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px 0px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+#login-form input[value="Log in"]{
+  margin-top: 20px;
+}
+
+#login-form input:focus[type="submit"]{
+  background-color: var(--yellow);
+}
+
+#login-form input[value="Sign Up"]{
+  margin-bottom: 20px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
