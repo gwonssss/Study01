@@ -1,3 +1,3 @@
 # Kokoa Clone
 
-크크루삥뽕
+Study Start!
