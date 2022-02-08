@@ -57,4 +57,7 @@
   display: block;
 }
 
-
+.fa-exclamation-circle {
+  color: tomato;
+  margin-left: 8px;
+}
